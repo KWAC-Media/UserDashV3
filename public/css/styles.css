@@ -1,0 +1,455 @@
+/** BODU BACKGOUND **/
+
+body {
+    background-image: url(../img/background-Image.png);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position-x: center;
+}
+
+/** TYPOGRAPHY**/
+
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.color-white {color:#ffffff;}
+.color-black {color:#000000;}
+.color-primary {color:#0361AB;}
+.color-light {color:#1BC2E6;}
+.color-grey {color:#A9A9AA;}
+.color-dark {color:#1E3350;}
+
+.card-header {
+  font-family: Muli;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 49px;
+padding-left: 0px;
+margin-left: 0px;
+/* identical to box height */
+
+color: #606060;
+}
+/** HEADER & NAV's **/
+
+header div.header-color-bar {
+    height: 10px;
+    background: linear-gradient(90deg, #1BC2E6 0%, #0361AB 100%);
+}
+
+header nav.navbar span.tao-intro-text {
+    width: 410px;
+}
+
+header nav.navbar .navbar-brand img {
+    height: 60px;
+}
+
+header nav.navbar span.tao-intro-text h5 {
+    font-size: 15px;
+    line-height: 10px;
+}
+
+header nav.navbar span.tao-intro-text p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0px;
+}
+
+/** CARDS BASICS **/
+
+div.card.tao-panel {
+    background: #FFFFFF;
+    box-shadow: -10px 8px 30px rgba(0, 0, 0, 0.18);
+    border-radius: 31px;
+    overflow: hidden;
+    border: none;
+}
+
+div.card.tao-panel .card-header,
+div.card.tao-panel .card-body,
+div.card.tao-panel .card-footer {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+div.card.tao-panel .tao-panel-color-bar {
+    height: 10px;
+    width:100%;
+    border: none;
+    padding: 0px;
+    margin-bottom: -1px;
+    background: linear-gradient(90deg, #1BC2E6 -0.64%, #0361AB 101.54%);
+    position: absolute;
+    bottom: -1px;
+    left:0;
+}
+
+.badge-card {
+  min-height: 400px !important;
+}
+.stats-card {
+  padding: 50px 60px 30px 60px;
+}
+.card-2 {
+  margin-left: 120px !important;
+  padding: 40px 60px 40px 60px;
+}
+
+h1.badge-name {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25.8155px;
+  line-height: 32px;
+  color: #606060;
+}
+
+h4.badge-status {
+  font-family: Helvetica Neue;
+  font-size: 16.7809px;
+  line-height: 20px;
+  color: #B2B1B1;
+}
+
+/** FOOTER **/
+
+footer nav.fixed-bottom {
+    background-color: transparent !important;
+}
+
+/** Card Tabs **/
+.tab-buttons {
+  width:122px;
+  height: 100%;
+  position: absolute;;
+  left:0px;
+  top:0px;
+}
+.tab-btn {
+  background: #1E3350;
+  height:33.33333%;
+  width:100%;
+  padding-top: 50%;
+}
+
+.tab-btn.center {
+  border-top: 1px solid #57769B;
+  border-bottom: 1px solid #57769B;
+}
+.tab-btn:hover {background: #0A1A2D !important;}
+.tab-icon {font-size: 20px;}
+
+.tab-btn img.tab-btn-img {
+  height: 36px;
+  margin-top: 16px;
+}
+
+/** Align **/
+.v-align-transform {
+  position: relative;
+  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  top: 50%;
+  z-index: 2;
+}
+.v-align-children {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+}
+.align-bottom {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.align-top {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.center {margin: auto;}
+
+/** Stat Bars **/
+.metric {
+  display: inline-block;
+  width: 23px;
+  margin: 11px;
+}
+.stat-bar {
+  background: linear-gradient(180deg, #1BC2E6 31.19%, #0361AB 108.03%);
+  border-radius: 30px;
+  width: 22px;
+  height: 98px;
+}
+p.stat {
+  font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 10.7901px;
+line-height: 14px;
+color: #606060;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.cta-text {
+  font-family: Muli;
+font-style: normal;
+font-weight: bold;
+font-size: 10.7901px;
+line-height: 14px;
+letter-spacing: 0.295em;
+text-transform: uppercase;
+color: #000000;
+margin-top:35px;
+}
+.cta-text:hover {color:#0361AB;}
+
+/** Search Field **/
+input, button, select, optgroup, textarea {
+border: 1px solid #E2E2E2;
+box-sizing: border-box;
+border-radius: 31px;
+height: 60px;
+}
+input.search-field {
+  width: 100%;
+  background: url(http://67.207.87.56/img/search.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 5px center;
+  height:50px;
+  padding-left:50px;
+}
+input.search-field:active,
+input.search-field:focus {
+  /*border: none !important;*/
+  outline: none !important;
+}
+
+/** Table **/
+.table-container {
+  margin-top: 10px;
+}
+
+table.tao-table {
+  margin-bottom: 1px !important;
+}
+
+table.tao-table thead {
+  display: block;
+  width: 100%;  
+}
+
+table.tao-table tbody {
+  display: block;
+  width: 100%;
+  height: 351px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+table.tao-table.t2 tbody{
+  height: 251px;
+}
+
+table.tao-table thead tr,
+table.tao-table tbody tr {
+  display: block;
+}
+
+table.tao-table tbody tr td.col-img {
+  width: 53px;
+}
+
+table.tao-table tbody tr td.col-session-name,
+table.tao-table tbody tr td.col-date-complete {
+  width: 300px;
+}
+
+table.tao-table tbody tr td.col-ratting {
+  width: 200px;
+  text-align: right;
+}
+
+
+table.tao-table thead tr td {
+  display: inline-block;
+  border-top: none !important;
+}
+
+table.tao-table thead tr {
+  height: auto !important;
+}
+
+table.tao-table thead tr td {
+  padding: 15px 0px;
+}
+
+table.tao-table thead tr td.col-void {
+  width: 60px;
+}
+
+table.tao-table thead tr td.col-session-name {
+  width: 290px;
+}
+
+table.tao-table thead tr td.col-date-complete {
+  width: 290px;
+}
+
+table.tao-table thead tr td.col-ratting {
+  width: 218px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+table.tao-table thead tr td.col-name {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  color: #A9A9AA;
+}
+
+table.tao-table tbody {
+  border-left: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+table.tao-table tbody tr {
+  height: auto !important;
+}
+
+table.tao-table tbody tr td {
+  padding: 10px;
+}
+
+table.tao-table tbody tr td.col-text span.text {
+  display: block;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+table.tao-table tbody tr td.col-text span.sub-text {
+  display: block;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  color: #A9A9AA;
+}
+
+
+/*.table td .col-name {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8px !important;
+  line-height: 10px;
+  color:#E2E2E2;
+  margin-left: 0px;
+}*/
+
+tr {height:56px;}
+
+/** BADGES PATHs **/
+
+.badgets-path-vue span.path-node {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: -3px 2px 11px #C7C7F1;
+  padding: 5px 9px;
+  color: #E9E9E9;
+}
+
+.badgets-path-vue span.path-node.n1 {
+  left: 99px;
+  top: 266px;
+}
+
+.badgets-path-vue span.path-node.n2 {
+  top: 244px;
+  left: 180px;
+}
+
+.badgets-path-vue span.path-node.n3 {
+  top: 309px;
+  left: 259px;
+}
+
+.badgets-path-vue span.path-node.n4 {
+  top: 252px;
+  left: 331px;
+}
+
+.badgets-path-vue span.path-node.n5 {
+  top: 185px;
+  left: 385px;
+}
+
+.badgets-path-vue span.path-node.n6 {
+  top: 85px;
+  left: 400px;
+}
+
+.badgets-path-vue span.path-node.n7 {
+  top: 16px;
+  left: 342px;
+}
+
+.badgets-path-vue span.path-node.n8 {
+  left: 269px;
+  top: 95px;
+}
+
+.badgets-path-vue span.path-node.n9 {
+  top: 163px;
+  left: 207px;
+}
+
+.badgets-path-vue span.path-node.n10 {
+  top: 112px;
+  left: 321px;
+}
+
+.badgets-path-vue span.path-node.active {
+  color: #ffffff;
+  background: #1BC2E6;
+}
+
+
+.badgets-path-vue span.path-node i.fa {
+  font-size: 15px;
+}
+
+.badgets-path-vue span.path-node.past i.fa.fa-plus:before{
+  background: -webkit-linear-gradient(#1BC2E6, #0361AB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
